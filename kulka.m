@@ -1,0 +1,23 @@
+figure(1)
+plot(rk)
+xlabel('Czas [s]')
+ylabel('Przemieszczenie r [m]')
+title('Wykres przebiegu przemieszczenia r')
+
+figure(2)
+plot(ek)
+xlabel('Czas [s]')
+ylabel('Uchyb e [m]')
+title('Wykres przebiegu sygna³u uchybu e')
+
+figure(3)
+plot(vk)
+xlabel('Czas [s]')
+ylabel('Prêdkoœæ v [m/s]')
+title('Wykres przebiegu sygna³u prêdkoœci v')
+
+figure(4)
+plot(theta)
+xlabel('Czas [s]')
+ylabel('Sygna³ steruj¹cy \theta [rad]')
+title('Wykres przebiegu sygna³u obrotu theta')

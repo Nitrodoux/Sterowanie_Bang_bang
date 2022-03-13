@@ -1,0 +1,23 @@
+figure(1)
+plot(em)
+xlabel('Czas [s]')
+ylabel('Uchyb e [m]')
+title('Wykres przebiegu sygna³u uchybu e')
+
+figure(2)
+plot(um)
+xlabel('Czas [s]')
+ylabel('Sygna³ steruj¹cy [m]')
+title('Wykres przebiegu sygna³u steruj¹cego u')
+
+figure(3)
+plot(vm)
+xlabel('Czas [s]')
+ylabel('Prêdkoœæ v [m/s]')
+title('Wykres przebiegu sygna³u prêdkoœci v')
+
+figure(4)
+plot(xm)
+xlabel('Czas [s]')
+ylabel('Przemieszczenie [m/s]')
+title('Wykres przebiegu sygna³u przemieszczenia x')
